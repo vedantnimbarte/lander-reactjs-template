@@ -1,0 +1,47 @@
+@import "../../constants.css";
+
+.subcribe-section-container {
+  height: 20rem;
+  background-color: var(--black);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+.subscribe-form {
+  margin: 3rem;
+}
+
+.subscribe-form > input[type="email"] {
+  border: 1px solid var(--light-gray);
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 0.5rem;
+  width: 20rem;
+}
+
+.subscribe-form > button {
+  background-color: var(--blue);
+  padding: 1rem;
+  width: 15rem;
+}
+
+.social {
+  display: flex;
+  width: 30%;
+  justify-content: space-evenly;
+}
+
+.social > .fab {
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.social > .fab:hover {
+  background-color: var(--blue);
+}

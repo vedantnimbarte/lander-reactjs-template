@@ -1,0 +1,39 @@
+@import "../../constants.css";
+
+.form-container {
+  padding: 2rem;
+  background-color: white;
+  border-radius: 1rem;
+  text-align: center;
+  color: var(--black);
+  width: 30%;
+}
+
+.heading {
+  color: var(--blue);
+}
+
+.sub-heading > span {
+  font-weight: 800;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"] {
+  border: 2px solid var(--light-gray);
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 0.5rem;
+}
+
+button {
+  border: none;
+  padding: 1rem;
+  background-color: var(--blue);
+  border-radius: 5px;
+  margin: 0.5rem;
+  color: white;
+}

@@ -1,0 +1,58 @@
+@import "../../constants.css";
+
+.learnMore-container {
+  justify-content: center;
+  height: 25rem;
+  position: relative;
+  color: white;
+  justify-content: center;
+}
+
+.learnMore-background {
+  width: 90%;
+  height: 25rem;
+}
+
+.overlay {
+  background-image: linear-gradient(
+    90deg,
+    #5e7feb 12%,
+    rgba(94, 127, 235, 0.7) 51%,
+    #5e7feb 95%
+  );
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.learn-more-info-container {
+  width: 50%;
+}
+
+button {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+button:nth-child(1) {
+  background-color: white;
+  color: var(--black);
+}
+
+button:nth-child(2) {
+  background-color: var(--black);
+  color: white;
+}
+
+.fa-arrow-right {
+  color: var(--black);
+}
+
+.fa-lock {
+  color: white;
+}

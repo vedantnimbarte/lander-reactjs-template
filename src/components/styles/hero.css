@@ -1,0 +1,42 @@
+.hero {
+  margin: 5rem;
+  width: 30rem;
+  padding: 1rem;
+}
+
+.hero > h1 {
+  line-height: 2rem;
+  letter-spacing: 1px;
+  text-justify: auto;
+}
+.video-btn {
+  display: flex;
+  font-size: 1rem;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 3rem;
+  letter-spacing: 1px;
+  width: 10rem;
+  background-color: var(--blue);
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.video-btn > span {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.list > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+}

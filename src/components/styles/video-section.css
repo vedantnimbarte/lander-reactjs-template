@@ -1,0 +1,50 @@
+.video-section-container {
+  height: 30rem;
+  padding: 3rem;
+}
+
+.video-section-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.video-section-info-container > .left {
+  width: 40%;
+}
+
+.video-section-info-container > .left > button {
+  background-color: var(--blue);
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.video-section-info-container > .right {
+  width: 40%;
+}
+
+.video-section-info-container > .right > .video {
+  height: 20rem;
+  width: 30rem;
+  border-radius: 5px;
+}
+
+.stat-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 2rem;
+}
+
+.stat-section > div {
+  display: flex;
+  width: 25rem;
+  align-items: center;
+}
+
+.stat-section > div > .percentage {
+  color: var(--blue);
+  margin: 1rem;
+  font-size: 3rem;
+}

@@ -1,0 +1,58 @@
+@import "../../constants.css";
+
+.about-container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--light-gray);
+  padding: 5rem;
+  align-items: center;
+}
+
+.people-img {
+  height: 20%;
+  width: 40%;
+  border-radius: 5px;
+}
+
+.info-container {
+  width: 40%;
+}
+
+.header {
+  color: var(--black);
+}
+
+.info {
+  color: var(--black);
+  text-align: justify;
+  line-height: 1.5rem;
+  font-weight: 200;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  line-height: 0.5rem;
+}
+
+.list-item > span {
+  margin: 0.5rem;
+  border: 1px solid var(--light-brown);
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.list-text > h3 {
+  color: var(--blue);
+}
+
+.list-text > p {
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.fa-check {
+  color: var(--green);
+  font-size: 20px;
+}
