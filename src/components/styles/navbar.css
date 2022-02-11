@@ -5,7 +5,7 @@
   position: absolute;
   width: 90vw;
   padding: 5px;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   top: 0;
   margin: 1rem;
@@ -13,6 +13,7 @@
 
 .brand-logo {
   height: 2rem;
+  margin-left: 2rem;
 }
 
 .navbar > a {
