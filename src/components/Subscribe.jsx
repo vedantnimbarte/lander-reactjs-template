@@ -16,6 +16,14 @@ function Subscribe() {
         <i class="fab fa-twitter"></i>
         <i class="fab fa-instagram"></i>
       </div>
+      <div>
+        <p class="developer-info">
+          Developed by{" "}
+          <a class="github-link" href="https://github.com/vedantnimbarte">
+            Vedant Nimbarte
+          </a>
+        </p>
+      </div>
     </div>
   );
 }

@@ -45,3 +45,13 @@
 .social > .fab:hover {
   background-color: var(--blue);
 }
+
+.developer-info {
+  letter-spacing: 1;
+  font-weight: 300;
+}
+
+.developer-info > .github-link {
+  text-decoration: none;
+  color: var(--blue);
+}
